@@ -34,7 +34,7 @@ Supports basic arithmetic operations and keyboard-free interaction.
 
 1. Clone the repo or download the files:
    ```bash
-   git clone https://github.com/your-username/js-calculator.git
+   git clone https://github.com/TK-8055/calculator.git
 2. Open index.html in your browser.
 3. Click the calculator buttons to perform calculations — no keyboard 
    needed!
