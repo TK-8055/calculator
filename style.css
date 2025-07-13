@@ -1,0 +1,90 @@
+
+body{
+    /* padding: 25vw; */
+    /* margin-left: 20vw;
+    margin-top: 10vh; */
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: rgb(40, 232, 216);
+    /* height: 25vh;
+    width: 25vw; */
+}
+
+button {
+    cursor: pointer;
+    color: rgb(4, 5, 5);
+    /* background-color: aquamarine; */
+    height: 70px;
+    width: 80px;
+    font-size:large;
+    transition: 700ms;
+    
+}
+button:hover{
+    color: black;
+    background-color: rgb(15, 232, 127);
+}
+button.num:hover{
+    color: black;
+    background-color: rgb(18, 197, 225);
+}
+
+#inp{
+    /* margin-left: 1.5vw; */
+    width: 400px;
+    height: 130px;
+    border-radius: 25px;
+    color: rgb(209, 217, 214);
+    font-size: xx-large;
+    font-weight: 1000;
+    letter-spacing: 7px;
+    direction: rtl;
+    background-color: rgba(49, 47, 47, 0.566);
+}
+
+#butwar{
+    padding: 20px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(0, 0, 0);
+    gap: 2px;
+    width: 400px;
+    height: 500px;
+}
+
+#cal{
+    width: 500px;
+    height: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 1);
+}
+
+.num{
+    color: aliceblue;
+    background-color: rgb(54, 54, 54);
+}
+
+.sym{
+    color: aliceblue;
+    background-color: rgb(241, 115, 13);
+}
+
+.cler{
+    color: aliceblue;
+    background-color: rgb(241, 115, 13);
+
+}
+.back{
+    color: aliceblue;
+    background-color: rgb(241, 115, 13);
+}
+
+.equal{
+    color: aliceblue;
+    background-color: rgb(241, 115, 13);
+}
